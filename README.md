@@ -1,4 +1,4 @@
-syjer.github.io
-===============
+My personal website (syjer.com)
+===============================
 
-syjer.github.io
+Because a static website is good enough.
