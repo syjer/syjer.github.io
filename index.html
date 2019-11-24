@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>syjer.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:100|PT+Mono' rel='stylesheet' type='text/css'>
 	<style type="text/css">
 	
@@ -12,12 +13,13 @@
 		body,h1,h2,p,ul,li {
 			margin:0;
 			padding:0;
+			text-align:center;
 		}
 	
 		.cnt {
 			padding-top:20px;
-			text-align:center;
 			font-family: 'PT Mono', sans-serif;
+			font-size:18px;
 		}
 		
 		h1, h2 {
@@ -38,13 +40,17 @@
 		}
 		
 		li {
-			width:100px;
 			text-align:left;
 			margin:auto;
+			padding-bottom:5px;
 		}
 		
 		li:before {
 			content: '> '
+		}
+
+		ul {
+			display: inline-block;
 		}
 		
 		a {
